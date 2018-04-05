@@ -1016,7 +1016,7 @@ JVM_TEST_IMAGE_TARGETS ?= test-image-hotspot-jtreg-native test-image-hotspot-gte
 # This target builds the test image
 test-image: prepare-test-image \
     test-image-jdk-jtreg-native test-image-failure-handler \
-    test-image-demos-jdk $(JVM_TEST_IMAGE_TARGETS)
+    test-image-demos-jdk
 
 ################################################################################
 
